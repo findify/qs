@@ -32,9 +32,7 @@
   "scripts": {
     "test": "npm run coverage",
     "tests-only": "node test",
-    "coverage": "covert test",
-    "dist": "mkdirp dist && browserify --standalone Qs lib/index.js > dist/qs.js",
-    "prepublish": "npm run dist"
+    "coverage": "covert test"
   },
   "license": "BSD-3-Clause"
 }
